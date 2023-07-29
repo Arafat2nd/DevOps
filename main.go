@@ -23,7 +23,7 @@ func main() {
 	})
 
 	app.Get("/kill", func(c *fiber.Ctx) error {
-		return c.SendString("Bye")
+		return c.SendString("KIlled instance")
 	})
 
 	app.Get("/weather123", func(c *fiber.Ctx) error {
