@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-east-1"  # Change this to your desired AWS region
+  region = "us-east-1"   
 }
 
 resource "aws_instance" "example" {
@@ -7,6 +7,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"   
 
   tags = {
-    Name = "MyDebianInstance"  # Customize the instance name
+    Name = "Oppotrain"   
   }
 }
